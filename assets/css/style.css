@@ -995,13 +995,13 @@ label {
     left: -15px;
     border-radius: 0px;
     border-top: 4px solid var(--theme-color2);
-    background: var(--theme-color);
+    background: #930A0B;
     width: 220px;
     box-shadow: var(--box-shadow);
   }
 
   .navbar .nav-item .dropdown-menu li {
-    border-bottom: 1px solid var(--border-white-color);
+    border-bottom: 1px solid #fff;
   }
 
   .navbar .nav-item .dropdown-menu li:last-child {
