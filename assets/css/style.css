@@ -1821,7 +1821,7 @@ label {
   line-height: 58px;
   text-align: center;
   margin-bottom: 12px;
-  background: var(--theme-color2);
+  background: #930A0B;
   border-radius: 50px;
   font-size: 45px;
   color: var(--theme-color);
@@ -2803,7 +2803,7 @@ label {
   height: 100px;
   line-height: 88px;
   color: var(--color-white);
-  background:  var(--theme-color2);
+  background:#930A0B;
   border-radius: 30% 70% 70% 30% / 30% 30% 70% 70%;
 }
 
@@ -5993,7 +5993,7 @@ label {
 ======================*/
 
 .footer-area {
-  background: var(--footer-bg);
+  background: #930A0B;
   position: relative;
   z-index: 1;
 }
@@ -6458,7 +6458,7 @@ label {
 }
 
 .choose-item-icon {
-  background-color: #FDA31B;
+  background-color: #930A0B;
   padding: 15px;
   border-radius: 50%;
   width: 60px;
@@ -6477,7 +6477,7 @@ label {
 }
 
 .choose-item:hover .choose-item-icon {
-  background-color: #1bc85c; 
+  background-color: #FDA31B; 
   transform: scale(1.1);
 }
 
