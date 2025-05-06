@@ -6570,16 +6570,10 @@ label {
     height: 40px; 
   }
 }
-
 .founder-profile-section {
   padding: 80px 0;
   background: #f9f9f9;
   font-family: 'Segoe UI', sans-serif;
-}
-
-.founder-profile-wrapper {
-  display: flex;
-  flex-wrap: wrap;
 }
 
 .founder-sidebar {
