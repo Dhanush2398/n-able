@@ -2314,14 +2314,15 @@ label {
 }
 
 .feature-content h4 {
-  color: var(--color-dark);
+  color: #930A0B;
   font-size: 22px;
   font-weight: 600;
   margin-bottom: 10px;
 }
 
 .feature-content p{
-  color: var(--color-dark);
+  color: #000;
+  font-size: 14px;
 }
 
 @media all and (max-width: 1199px) {
