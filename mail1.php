@@ -15,7 +15,7 @@
     $subject ="Candidates Requirements";
     $fromname ="website Message";
     $fromemail = $email;  
-    $mailto = 'aytacages@gmail.com';  
+    $mailto = '';  
 
     $content = file_get_contents($fileName);
     $content = chunk_split(base64_encode($content));

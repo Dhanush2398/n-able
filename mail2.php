@@ -12,7 +12,7 @@
     $subject ="Job Application";
     $fromname =$name;
     $fromemail = $email;  
-    $mailto = 'aytacages@gmail.com';  
+    $mailto = '';  
 
     $content = file_get_contents($fileName);
     $content = chunk_split(base64_encode($content));

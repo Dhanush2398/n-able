@@ -6,11 +6,11 @@ $email= $_POST['email'];
 $number = $_POST['number'];
 $company = $_POST['subject'];
 $message= $_POST['message'];
-$to = "iaytacages@gmail.com";
+$to = "";
 $subject = "enquiry Mail From $name";
 $txt = "Name = ". $name ."\r\nMobileNumber = " . $number .  "\r\nEmail = " . $email .  "\r\nSubject =" . $company. "\r\nMessage =" . $message ;
 $headers = "From:$email" . "\r\n" .
-"CC:iaytacages@gmail.com";
+"CC:";
 if($email!=NULL){
     mail($to,$subject,$txt,$headers);
 }
