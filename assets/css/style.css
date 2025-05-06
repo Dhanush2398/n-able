@@ -1950,7 +1950,27 @@ label {
 .course-img{
   position: relative;
 }
+.course-img img {
+  width: 100%;
+  height: 200px; 
+  object-fit: cover;
+  border-radius: 5px; 
+}
+.course-title a {
+  padding-top: 20px;
+  color: #930A0B; 
+  text-decoration: none;
+  transition: color 0.3s ease;
+}
 
+.course-title a:hover {
+  color: #930A0B;
+}
+.course-content p {
+  color: #000;        
+  font-size: 14px;     
+  line-height: 1.6;    
+}
 .course-img img{
   border-radius: 40px 40px 40px 0;
 }
@@ -6613,4 +6633,120 @@ label {
 .founder-strengths-list i {
   color: #2b9348;
   margin-right: 8px;
+}
+
+
+#vision-mission {
+  background-color: #930A0B; /* Bold red background */
+  color: #fff; /* White text for contrast */
+  padding: 80px 0;
+  font-family: 'Arial', sans-serif;
+}
+
+#vision-mission .container {
+  width: 90%;
+  margin: 0 auto;
+  max-width: 1200px;
+}
+
+#vision-mission .section-header h2 {
+  font-size: 40px;
+  font-weight: 700;
+  color: #fff;
+  margin-bottom: 50px;
+  text-align: center;
+  letter-spacing: 3px;
+  text-transform: uppercase;
+}
+
+#vision-mission .section-header h2::after {
+  content: '';
+  position: absolute;
+  bottom: -10px;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 60px;
+  height: 3px;
+  background-color: #fff;
+  border-radius: 5px;
+}
+
+#vision-mission .vision-mission-content {
+  display: flex;
+  justify-content: space-between;
+  gap: 30px;
+  flex-wrap: wrap;
+}
+
+#vision-mission .vision,
+#vision-mission .mission {
+  background-color: #F2F4F6; 
+  color: #333; 
+  padding: 40px;
+  border-radius: 12px;
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.1);
+  width: 48%;
+  transition: transform 0.3s ease-in-out, box-shadow 0.3s ease;
+  border: 2px solid #000000;
+}
+
+#vision-mission .vision:hover,
+#vision-mission .mission:hover {
+  transform: translateY(-8px);
+  box-shadow: 0 12px 25px rgba(0, 0, 0, 0.2);
+}
+
+#vision-mission .vision h3,
+#vision-mission .mission h3 {
+  font-size: 28px;
+  font-weight: 600;
+  color: #930A0B; 
+  margin-bottom: 20px;
+  text-align: center;
+  text-transform: capitalize;
+}
+
+#vision-mission .vision p,
+#vision-mission .mission ul {
+  font-size: 16px;
+  color: #000;
+  line-height: 1.8;
+  text-align: justify;
+}
+
+#vision-mission .mission ul {
+  list-style-type: none;
+  padding-left: 20px;
+}
+
+#vision-mission .mission ul li {
+  position: relative;
+  margin-bottom: 18px;
+}
+
+#vision-mission .mission ul li:before {
+  content: "✔";
+  color: #4CAF50; /* Fresh green checkmark for bullet */
+  font-size: 20px;
+  position: absolute;
+  left: -30px;
+  top: 0;
+}
+
+#vision-mission .mission ul li strong {
+  color: #FDA31B;
+  font-weight: 600;
+}
+
+@media (max-width: 768px) {
+  #vision-mission .vision-mission-content {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  #vision-mission .vision,
+  #vision-mission .mission {
+    width: 100%;
+    margin-bottom: 30px;
+  }
 }
