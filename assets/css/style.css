@@ -1532,12 +1532,12 @@ label {
 }
 
 .hero-single .hero-content .hero-title span{
-  color: #FCF259;
+  color: #ea2525;
 }
 
 .hero-single .hero-content .hero-sub-title {
   display: inline-block;
-  color: #FCF259;
+  color: #ea2525;
   font-size: 25px;
   letter-spacing: 6px;
   font-weight: 800;
@@ -6635,10 +6635,9 @@ label {
   margin-right: 8px;
 }
 
-
 #vision-mission {
-  background-color: #930A0B; /* Bold red background */
-  color: #fff; /* White text for contrast */
+  background-color: #930A0B; 
+  color: #fff; 
   padding: 80px 0;
   font-family: 'Arial', sans-serif;
 }
@@ -6652,11 +6651,12 @@ label {
 #vision-mission .section-header h2 {
   font-size: 40px;
   font-weight: 700;
-  color: #fff;
+  color: #FDA31B;
   margin-bottom: 50px;
   text-align: center;
   letter-spacing: 3px;
   text-transform: uppercase;
+  position: relative;
 }
 
 #vision-mission .section-header h2::after {
@@ -6707,8 +6707,8 @@ label {
 }
 
 #vision-mission .vision p,
-#vision-mission .mission ul {
-  font-size: 16px;
+#vision-mission .mission p {
+  font-size: 14px;
   color: #000;
   line-height: 1.8;
   text-align: justify;
@@ -6717,6 +6717,9 @@ label {
 #vision-mission .mission ul {
   list-style-type: none;
   padding-left: 20px;
+  font-size: 14px;
+  color: #000;
+  line-height: 1.8;
 }
 
 #vision-mission .mission ul li {
@@ -6726,7 +6729,7 @@ label {
 
 #vision-mission .mission ul li:before {
   content: "✔";
-  color: #4CAF50; /* Fresh green checkmark for bullet */
+  color: #4CAF50; 
   font-size: 20px;
   position: absolute;
   left: -30px;
@@ -6748,5 +6751,10 @@ label {
   #vision-mission .mission {
     width: 100%;
     margin-bottom: 30px;
+  }
+
+  #vision-mission .vision p,
+  #vision-mission .mission p {
+    text-align: left; /* Prevent awkward spacing on mobile */
   }
 }
