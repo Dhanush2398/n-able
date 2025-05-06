@@ -280,99 +280,31 @@ label {
 4. Preloader
 ======================*/
 
-.preloader {
+#preloader {
   position: fixed;
-  width: 100%;
-  height: 100%;
-  background: var(--theme-color);
   top: 0;
   left: 0;
-  z-index: 9999;
+  width: 100%;
+  height: 100%;
+  background:  #930A0B;
   display: flex;
   align-items: center;
   justify-content: center;
+  z-index: 9999;
+  transition: opacity 0.5s ease;
 }
 
-.loader-book {
-  border: 5px solid var(--color-white);
+.preloader-container img {
   width: 100px;
-  height: 61px;
-  position: relative;
-  perspective: 150px;
+  animation: pulse 1.5s infinite;
 }
 
-.loader-book-page {
-  display: block;
-  width: 50px;
-  height: 60px;
-  border: 5px solid var(--color-white);
-  border-left: 5px solid var(--color-white);
-  margin: 0;
-  position: absolute;
-  right: -4px;
-  top: -4px;
-  overflow: hidden;
-  background: var(--theme-color);
-  transform-style: preserve-3d;
-  -webkit-transform-origin: left center;
-  transform-origin: left center;
+/* Optional pulse animation */
+@keyframes pulse {
+  0% { transform: scale(1); opacity: 1; }
+  50% { transform: scale(1.1); opacity: 0.7; }
+  100% { transform: scale(1); opacity: 1; }
 }
-
-.loader-book-page:nth-child(1) {
-  -webkit-animation: loader-book 1.2s cubic-bezier(0, .39, 1, .68) 1.6s infinite;
-  animation: loader-book 1.2s cubic-bezier(0, .39, 1, .68) 1.6s infinite;
-}
-
-.loader-book-page:nth-child(2) {
-  -webkit-animation: loader-book 1.2s cubic-bezier(0, .39, 1, .68) 1.45s infinite;
-  animation: loader-book 1.2s cubic-bezier(0, .39, 1, .68) 1.45s infinite;
-}
-
-.loader-book-page:nth-child(3) {
-  -webkit-animation: loader-book 1.2s cubic-bezier(0, .39, 1, .68) 1.2s infinite;
-  animation: loader-book 1.2s cubic-bezier(0, .39, 1, .68) 1.2s infinite;
-}
-
-@-webkit-keyframes loader-book {
-  0% {
-    -webkit-transform: rotateY( 0deg);
-    transform: rotateY( 0deg);
-  }
-  20% {
-    background: var(--theme-color2);
-  }
-  40% {
-    background: var(--theme-color2);
-    -webkit-transform: rotateY( -180deg);
-    transform: rotateY( -180deg);
-  }
-  100% {
-    background: var(--theme-color);
-    -webkit-transform: rotateY( -180deg);
-    transform: rotateY( -180deg);
-  }
-}
-
-@keyframes loader-book {
-  0% {
-    transform: rotateY( 0deg);
-  }
-  20% {
-    background: var(--theme-color2);
-  }
-  40% {
-    background: var(--theme-color2);
-    transform: rotateY( -180deg);
-  }
-  100% {
-    background: var(--theme-color);
-    transform: rotateY( -180deg);
-  }
-}
-
-
-
-
 /*===================
 5. Theme default css
 ======================*/

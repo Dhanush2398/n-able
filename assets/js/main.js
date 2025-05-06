@@ -303,6 +303,18 @@ Version         : 1.0
 
 })(jQuery);
 
+    window.addEventListener('load', function () {
+        const preloader = document.getElementById('preloader');
+        
+        
+        setTimeout(() => {
+            preloader.style.opacity = '0';
+            setTimeout(() => {
+                preloader.style.display = 'none';
+            }, 500); 
+        }, 2000); 
+    });
+
 
 
 
