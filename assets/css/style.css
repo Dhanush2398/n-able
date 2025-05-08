@@ -286,7 +286,7 @@ label {
   left: 0;
   width: 100%;
   height: 100%;
-  background:  #930A0B;
+  background:  #023047;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -657,7 +657,7 @@ label {
   text-align: center;
   overflow: hidden;
   border: none;
-  background: #930A0B;
+  background: #023047;
   box-shadow: var(--box-shadow);
   z-index: 1;
 }
@@ -738,7 +738,7 @@ label {
   outline: none;
   border-radius: 50px;
   color: var(--color-white);
-  background-color: #930A0B;
+  background-color: #023047;
   cursor: pointer;
   width: 50px;
   height: 50px;
@@ -773,7 +773,7 @@ label {
 .header-top {
   padding: 9px 0 10px 0;
   position: relative;
-  background: #930A0B;
+  background: #023047;
   z-index: 1;
 }
 
@@ -995,7 +995,7 @@ label {
     left: -15px;
     border-radius: 0px;
     border-top: 4px solid var(--theme-color2);
-    background: #930A0B;
+    background: #023047;
     width: 220px;
     box-shadow: var(--box-shadow);
   }
@@ -1773,7 +1773,7 @@ label {
   display: flex;
   align-items: center;
   text-align: center;
-  background: #930A0B;
+  background: #023047;
   padding: 15px 20px 15px 15px;
   color: var(--color-white);
   border-radius: 50px 50px 50px 0;
@@ -1821,7 +1821,7 @@ label {
   line-height: 58px;
   text-align: center;
   margin-bottom: 12px;
-  background: #930A0B;
+  background: #023047;
   border-radius: 50px;
   font-size: 45px;
   color: var(--theme-color);
@@ -1963,13 +1963,13 @@ label {
 }
 .course-title a {
   padding-top: 20px;
-  color: #930A0B; 
+  color: #023047; 
   text-decoration: none;
   transition: color 0.3s ease;
 }
 
 .course-title a:hover {
-  color: #930A0B;
+  color: #023047;
 }
 .course-content p {
   color: #000;        
@@ -2275,7 +2275,7 @@ label {
 }
 
 .feature-content h4 {
-  color: #930A0B;
+  color: #023047;
   font-size: 22px;
   font-weight: 600;
   margin-bottom: 10px;
@@ -2828,7 +2828,7 @@ label {
   height: 100px;
   line-height: 88px;
   color: var(--color-white);
-  background:#930A0B;
+  background:#023047;
   border-radius: 30% 70% 70% 30% / 30% 30% 70% 70%;
 }
 
@@ -4113,7 +4113,7 @@ label {
   left: 20px;
   right: 20px;
   bottom: -8px;
-  background: #930A0B;
+  background: #023047;
   clip-path: polygon(20% 0%, 80% 0%, 100% 100%, 0% 100%);
   height: 20px;
   z-index: -1;
@@ -4128,7 +4128,7 @@ label {
   text-align: center;
   position: relative;
   border-radius: 30px;
-  background: #930A0B;
+  background: #023047;
 }
 
 .contact-info-icon::before{
@@ -4138,7 +4138,7 @@ label {
   right: -15px;
   top: -15px;
   bottom: -15px;
-  border: 3px solid #930A0B;
+  border: 3px solid #023047;
   border-radius: 40px;
 }
 
@@ -6018,7 +6018,7 @@ label {
 ======================*/
 
 .footer-area {
-  background: #930A0B;
+  background: #023047;
   position: relative;
   z-index: 1;
 }
@@ -6468,13 +6468,13 @@ label {
 }
 
 .feature-icon i {
-  color: #930A0B; 
+  color: #023047; 
   font-size: 28px;
   transition: transform 0.3s ease;
 }
 
 .feature-item:hover .feature-icon {
-  background-color: #930A0B; 
+  background-color: #023047; 
 }
 
 .feature-item:hover .feature-icon i {
@@ -6483,7 +6483,7 @@ label {
 }
 
 .choose-item-icon {
-  background-color: #930A0B;
+  background-color: #023047;
   padding: 15px;
   border-radius: 50%;
   width: 60px;
@@ -6530,7 +6530,7 @@ label {
 
 .department-icon i {
   font-size: 50px; 
-  color: #930A0B; 
+  color: #023047; 
   transition: color 0.3s ease, transform 0.3s ease; 
 }
 
@@ -6553,6 +6553,8 @@ label {
 .navbar-brand img{
   height: 100px;
   width: 100%;
+  padding-left: 20px;
+  padding-right: 20px;
 }
 
 
@@ -6565,7 +6567,7 @@ label {
 
 @media (max-width: 320px) {
   .navbar-brand img {
-    height: 40px; 
+    height: 80px; 
   }
 }
 .founder-profile-section {
@@ -6588,7 +6590,7 @@ label {
 .founder-widget-title {
   font-size: 20px;
   font-weight: 600;
-  color: #930A0B;
+  color: #023047;
   margin-bottom: 15px;
   border-bottom: 2px solid #081D0D;
   padding-bottom: 5px;
@@ -6607,7 +6609,7 @@ label {
 }
 
 .founder-details h3 {
-  color: #930A0B;
+  color: #023047;
   font-weight: 700;
 }
 
@@ -6641,7 +6643,7 @@ label {
 }
 
 #vision-mission {
-  background-color: #930A0B; 
+  background-color: #023047; 
   color: #fff; 
   padding: 80px 0;
   font-family: 'Arial', sans-serif;
@@ -6705,7 +6707,7 @@ label {
 #vision-mission .mission h3 {
   font-size: 28px;
   font-weight: 600;
-  color: #930A0B; 
+  color: #023047; 
   margin-bottom: 20px;
   text-align: center;
   text-transform: capitalize;
@@ -6831,3 +6833,4 @@ label {
     text-align: center;
   }
 }
+
