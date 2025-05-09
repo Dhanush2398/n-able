@@ -1532,13 +1532,14 @@ label {
 }
 
 .hero-single .hero-content .hero-title span{
-  color: #ea2525;
+  color: #fff;
+  font-weight: 800 !important;
 }
 
 .hero-single .hero-content .hero-sub-title {
   display: inline-block;
-  color: #ea2525;
-  font-size: 25px;
+  color: #fff;
+  font-size: 35px;
   letter-spacing: 6px;
   font-weight: 800;
   position: relative;
